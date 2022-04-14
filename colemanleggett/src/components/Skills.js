@@ -90,7 +90,7 @@ const CarouselWrap = styled.div`
 `;
 
 const Carousel = styled(slick)`
-    width: 50%;
+    width: 45%;
 
     ul li button {
         &:before {
