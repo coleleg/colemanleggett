@@ -27,7 +27,7 @@ function Header() {
 };
 
 const Nav = styled.div`
-    height: 70px;
+    min-height: 70px;
     top: 0;
     left: 0;
     right: 0;
@@ -38,7 +38,6 @@ const Nav = styled.div`
     padding: 0 24px;
     overflow-x: hidden;
     color: rgb(240, 247, 244);
-    position: absolute;
 `;
 
 const Logo = styled.img`
