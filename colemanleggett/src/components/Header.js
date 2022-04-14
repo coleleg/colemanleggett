@@ -37,7 +37,7 @@ const Nav = styled.div`
     padding: 0 24px;
     overflow-x: hidden;
     color: rgb(240, 247, 244);
-    position: fixed;
+    position: absolute;
 `;
 
 const Menu = styled.div`
