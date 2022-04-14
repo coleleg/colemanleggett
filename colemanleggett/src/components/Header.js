@@ -4,9 +4,10 @@ import styled from 'styled-components';
 function Header() {
     return (
         <Nav>
+            <Logo src="/images/full-stack.png" />
             <Name>
-            COLEMAN LEGGETT
-            </Name>
+                COLEMAN LEGGETT
+            </Name> 
             <Menu>
                 <a>
                     <span>SKILLS</span>
@@ -40,6 +41,11 @@ const Nav = styled.div`
     position: absolute;
 `;
 
+const Logo = styled.img`
+`;
+
+
+
 const Menu = styled.div`
     display: flex;
     flex: 1;
@@ -56,6 +62,8 @@ const Menu = styled.div`
 `;
 
 const Name = styled(Menu)`
-    justify-content: left;`;
+    justify-content: left;
+`;
+
 
 export default Header
