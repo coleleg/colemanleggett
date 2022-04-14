@@ -4,7 +4,7 @@ import slick from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import PsychologyIcon from '@mui/icons-material/Psychology';
-import DoubleArrowIcon from '@mui/icons-material/DoubleArrow';
+import { blue } from '@mui/material/colors';
 
 function Skills() {
     let settings = {
@@ -19,13 +19,9 @@ function Skills() {
 
     return (
         <Container>
-            <TitleWrap>
-                <PsychologyIcon className="icons" />
-                <SkillsTitle>
-                    <h1>SKILLS</h1>
-                </SkillsTitle>
-            </TitleWrap>
-            <DoubleArrowIcon className="icons" />
+            <IconWrap>
+                <PsychologyIcon sx={{ color: blue[100] }} className="icons" />
+            </IconWrap>
             <CarouselWrap>
                 <Carousel {...settings}>
                     <Wrap>
@@ -49,6 +45,12 @@ function Skills() {
                     <Wrap>
                         <img src = "/images/react.png" />
                     </Wrap>
+                    <Wrap>
+                        <img src = "/images/RestApi.png" />
+                    </Wrap>
+                    <Wrap>
+                        <img src = "/images/graphql.png" />
+                    </Wrap>
                 </Carousel>
             </CarouselWrap>
         </Container>
@@ -59,39 +61,35 @@ function Skills() {
 const Container = styled.div`
     display: flex;
     margin-top: 5vh;
+    margin-bottom: 5vh;
     justify-content: center;
     align-items: center;
     height: 50%;
     width: 100%;
     
     .icons {
-        transform: scale(5.0);
+        transform: scale(10.0);
     }
+`;
+
+const IconWrap = styled.div`
+    align-items: center;
 `;
 
 const TitleWrap = styled.div`
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 25%;
-`;
-
-const SkillsTitle = styled.div`
-    margin-left: 3vw;
-    margin-right: 3vw;
-    
 `;
 
 const CarouselWrap = styled.div`
     display: flex;
-    justify-content: center;
-    padding-right: 5vw;
-    width: 75%;
+    justify-content: right;
+    width: 40%;
 `;
 
 const Carousel = styled(slick)`
-    width: 45%;
-
+    width: 70%;
+    
     ul li button {
         &:before {
             font-size: 10px;
@@ -108,5 +106,7 @@ const Carousel = styled(slick)`
 const Wrap = styled.div`
     img {
         margin: auto;
-    }`;
+    }
+`;
+
 export default Skills
