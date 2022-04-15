@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkIcon from '@mui/icons-material/Link';
 
 function Projects() {
     return (
@@ -7,27 +9,27 @@ function Projects() {
             <ProjectContent>
                 <Card>
                     <img src = "/images/gym-crm.png" alt="gym-crm website" />
-                        <h3 className="card-title">Gym-Crm</h3>
-                        <p className="git-btn"><a href="http://github.com">GitHub</a></p>
-                        <p className="site-btn"><a>Link</a></p>
+                        <h3 className="card-title">Gym-Crm: Make Gains!</h3>
+                        <p className="git-btn"><a href="http://github.com"><GitHubIcon /></a></p>
+                        <p className="site-btn"><a><LinkIcon /></a></p>
                 </Card>
                 <Card>
                     <img src = "/images/gym-crm.png" alt="gym-crm website" />
-                    
                         <h3 className="card-title">Gym-Crm</h3>
-                        <p className="git-btn">Hello</p>
+                        <p className="git-btn"><a href="http://github.com"><GitHubIcon /></a></p>
+                        <p className="site-btn"><a><LinkIcon /></a></p>
                 </Card>
                 <Card>
                     <img src = "/images/gym-crm.png" alt="gym-crm website" />
-                    
                         <h3 className="card-title">Gym-Crm</h3>
-                        <p className="git-btn">Hello</p>
+                        <p className="git-btn"><a href="http://github.com"><GitHubIcon /></a></p>
+                        <p className="site-btn"><a><LinkIcon /></a></p>
                 </Card>
                 <Card>
                     <img src = "/images/gym-crm.png" alt="gym-crm website" />
-                    
                         <h3 className="card-title">Gym-Crm</h3>
-                        <p className="git-btn">Hello</p>
+                        <p className="git-btn"><a href="http://github.com"><GitHubIcon /></a></p>
+                        <p className="site-btn"><a><LinkIcon /></a></p>
                 </Card>
             </ProjectContent>
         </Container>
@@ -67,6 +69,7 @@ const Card = styled.div`
     }
 
     .card-title {
+        margin-bottom: .5vw;
         margin-left: .5vw;
         color: rgb(240, 247, 244);
         transform: translateY(1%);
@@ -75,6 +78,7 @@ const Card = styled.div`
     }
     
     .git-btn {
+        margin-top: .5vw;
         margin-left: .5vw;
         color: rgb(240, 247, 244);
         cursor: pointer;
@@ -84,6 +88,7 @@ const Card = styled.div`
     }
 
     .site-btn {
+        margin-top: .5vw;
         margin-left: .5vw;
         color: rgb(240, 247, 244);
         cursor: pointer;
@@ -99,26 +104,26 @@ const Card = styled.div`
         border: 3px solid rgba(249, 249, 249, .9);
 
         img {
-            transform: translateY(-40%);
+            transform: translateY(-30%);
             transition: transform 250ms ease;
             transition-delay: 250ms;
         }
 
         .card-title {
-            transform: translateY(-500%);
+            transform: translateY(-450%);
             transition: transform 250ms ease;
             transition-delay: 250ms;
             
         }
 
         .git-btn {
-            transform: translateY(-500%);
+            transform: translateY(-350%);
             transition: transform 250ms ease;
             transition-delay: 250ms;
         }
         
         .site-btn {
-            transform: translateY(-500%);
+            transform: translateY(-400%);
             transition: transform 250ms ease;
             transition-delay: 250ms;
         }
