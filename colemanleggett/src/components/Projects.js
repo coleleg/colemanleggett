@@ -36,9 +36,9 @@ function Projects() {
 };
 
 const Container = styled.div`
-    margin-top: 10vh;
     margin-left: 5vw;
     margin-right: 5vw;
+    margin-top: 7vh;
 `;
 
 const ProjectContent = styled.div`

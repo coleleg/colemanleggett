@@ -19,9 +19,6 @@ function Skills() {
 
     return (
         <Container>
-            <IconWrap>
-                <PsychologyIcon sx={{ color: indigo[100] }} className="icons" />
-            </IconWrap>
             <CarouselWrap>
                 <Carousel {...settings}>
                     <Wrap>
@@ -64,7 +61,7 @@ const Container = styled.div`
     margin-bottom: 5vh;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 40%;
     width: 100%;
     
     .icons {
@@ -72,19 +69,10 @@ const Container = styled.div`
     }
 `;
 
-const IconWrap = styled.div`
-    align-items: center;
-`;
-
-const TitleWrap = styled.div`
-    display: flex;
-    justify-content: center;
-`;
-
 const CarouselWrap = styled.div`
     display: flex;
-    justify-content: right;
-    width: 45%;
+    justify-content: center;
+    width: 50%;
 `;
 
 const Carousel = styled(slick)`

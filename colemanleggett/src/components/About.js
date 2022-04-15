@@ -22,6 +22,9 @@ function About() {
 }
 
 const Container = styled.div`
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 7vh;
     color: rgb(240, 247, 244);
     display: flex;
     justify-content: space-between;

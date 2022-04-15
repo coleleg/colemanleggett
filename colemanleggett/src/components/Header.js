@@ -43,8 +43,6 @@ const Nav = styled.div`
 const Logo = styled.img`
 `;
 
-
-
 const Menu = styled.div`
     display: flex;
     flex: 1;
