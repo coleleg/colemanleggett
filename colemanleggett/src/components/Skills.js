@@ -4,7 +4,7 @@ import slick from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import PsychologyIcon from '@mui/icons-material/Psychology';
-import { blue } from '@mui/material/colors';
+import { indigo } from '@mui/material/colors';
 
 function Skills() {
     let settings = {
@@ -20,7 +20,7 @@ function Skills() {
     return (
         <Container>
             <IconWrap>
-                <PsychologyIcon sx={{ color: blue[100] }} className="icons" />
+                <PsychologyIcon sx={{ color: indigo[100] }} className="icons" />
             </IconWrap>
             <CarouselWrap>
                 <Carousel {...settings}>
@@ -84,7 +84,7 @@ const TitleWrap = styled.div`
 const CarouselWrap = styled.div`
     display: flex;
     justify-content: right;
-    width: 40%;
+    width: 45%;
 `;
 
 const Carousel = styled(slick)`

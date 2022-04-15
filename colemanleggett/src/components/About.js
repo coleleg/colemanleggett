@@ -31,6 +31,8 @@ const Container = styled.div`
 const ProfileImg = styled.img`
     border-radius: 50%;
     padding: 10px 10px;
+    box-shadow: 0 40px 15px -15px rgba(0, 0, 0, 0.3), 
+        inset 0 -50px 20px -20px rgba(0, 0, 0, 0.4);
     `;
 
 const TextBox = styled.div`

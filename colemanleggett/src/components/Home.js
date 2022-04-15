@@ -10,6 +10,7 @@ function Home() {
         <Container>
             <Skills />
             <About />
+            <Projects />
         </Container>
     )
 };
@@ -20,7 +21,6 @@ const Container = styled.main`
     position: relative;
     overflow-x: hidden;
     background: url("images/black-textured.jpg") center center / cover no-repeat fixed;
-
 `;
 
 
