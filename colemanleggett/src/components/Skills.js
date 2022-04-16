@@ -3,8 +3,6 @@ import styled from 'styled-components';
 import slick from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import PsychologyIcon from '@mui/icons-material/Psychology';
-import { indigo } from '@mui/material/colors';
 
 function Skills() {
     let settings = {
@@ -63,10 +61,6 @@ const Container = styled.div`
     align-items: center;
     height: 40%;
     width: 100%;
-    
-    .icons {
-        transform: scale(10.0);
-    }
 `;
 
 const CarouselWrap = styled.div`

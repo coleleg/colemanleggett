@@ -14,6 +14,8 @@ function Home() {
             <Contact />
         </Container>
     )
+
+    
 };
 
 const Container = styled.main`

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Header() {
     return (
@@ -9,11 +10,14 @@ function Header() {
                 COLEMAN LEGGETT
             </Name> 
             <Menu>
-                <a>
-                    <span>SKILLS</span>
+                <a href="https://github.com/coleleg">
+                    <GitHubIcon sx={{ color: "white" }} />
                 </a>
                 <a>
                     <span>ABOUT</span>
+                </a>
+                <a>
+                    <span>SKILLS</span>
                 </a>
                 <a>
                     <span>PROJECTS</span>
@@ -55,6 +59,10 @@ const Menu = styled.div`
         align-items: center;
         padding: 0 12px;
         cursor: pointer;
+    }
+
+    a:hover {
+        transform: scale(1.1);
     }
 `;
 

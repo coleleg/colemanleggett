@@ -5,7 +5,7 @@ function Contact() {
     return (
         <Container>
             <TextContainer>
-                <h3>Thanks for stopping by- contact me here.</h3>
+                <h3>Thanks for checking out my portfolio- contact me here.</h3>
             </TextContainer>
             <FormContainer>
                 <FormGroup>
