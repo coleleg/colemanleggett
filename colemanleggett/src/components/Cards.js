@@ -16,6 +16,10 @@ const Cards = props => {
     
     const Wrap = styled.div`
     height: 80%;
+
+    // implement if more than 1 row of cards
+    // margin-top: 2vh;
+
     max-height: 397px;
     min-height: 397px;
     border-radius: 5px;
@@ -119,6 +123,7 @@ const Cards = props => {
                 // makes it so the cursor doesn't extend all the way across the card
                 width: 10%;
             }
+            
             &:hover {
                 transform: scale(1.05);
                 box-shadow: rgb(0 0 0 / 75%) 0px 40px 58px -16px,
