@@ -38,7 +38,7 @@ const Contact = () => {
 };
 
     return (
-        <Container>
+        <Container id="contact">
             <TextContainer>
                 <h3>Thanks for checking out my portfolio- contact me here.</h3>
             </TextContainer>

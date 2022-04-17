@@ -6,7 +6,7 @@ import Cards from './Cards';
 
 function Projects() {
     return (
-        <Container>
+        <Container id="projects">
             <ProjectContent>
             <Cards
                         img= "/images/gym-crm.png"

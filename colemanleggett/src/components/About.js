@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function About() {
     return (
-        <Container>
+        <Container id="about">
             <ProfileImg src ="https://lh3.googleusercontent.com/a-/AOh14GhvXI5hbukrQGgBnVmETGqghd1FxTVshDsilLXc5w=s288-p-rw-no" />
             <TextBox>
             <p>

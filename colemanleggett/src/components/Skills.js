@@ -16,7 +16,7 @@ function Skills() {
     };
 
     return (
-        <Container>
+        <Container id="skills">
             <CarouselWrap>
                 <Carousel {...settings}>
                     <Wrap>

@@ -13,16 +13,16 @@ function Header() {
                 <a href="https://github.com/coleleg">
                     <GitHubIcon sx={{ color: "white" }} />
                 </a>
-                <a>
+                <a href="#about">
                     <span>ABOUT</span>
                 </a>
-                <a>
+                <a href="#skills">
                     <span>SKILLS</span>
                 </a>
-                <a>
+                <a href="#projects">
                     <span>PROJECTS</span>
                 </a>
-                <a>
+                <a href="#contact">
                     <span>CONTACT</span>
                 </a>
             </Menu>
@@ -63,6 +63,8 @@ const Menu = styled.div`
         align-items: center;
         padding: 0 12px;
         cursor: pointer;
+        color: rgb(240, 247, 244);
+        text-decoration: none;
     }
 
     a:hover {
