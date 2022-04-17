@@ -18,6 +18,7 @@ const Contact = () => {
         e.preventDefault();
         console.log(formState);
 
+        // send instead of sendTo for formstate
         emailjs.send('service_y37pu5b', 'template_uvw4zdq', formState, 'j4oceoFjx1CJSJJEJ')
         .then((result) => {
             console.log(result.text);
@@ -31,6 +32,7 @@ const Contact = () => {
             message: ''
         });
 
+        // allows for email submission & clearing of the actual text in the form
         alert("Thanks for your interest!");
         window.location.reload();
 };
@@ -111,6 +113,8 @@ const FormContainer = styled.div`
                 width: 100%;
                 height: 3vh;
                 font-weight: bold;
+                text-color: #0A0A0A;
+                cursor: pointer;
             }
     }
 `;

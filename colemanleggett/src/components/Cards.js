@@ -15,7 +15,9 @@ const Cards = props => {
     }
     
     const Wrap = styled.div`
-    height: 90%;
+    height: 80%;
+    max-height: 397px;
+    min-height: 397px;
     border-radius: 5px;
     border: 3px solid #0A0A0A;
     overflow: hidden;
@@ -31,6 +33,7 @@ const Cards = props => {
         transition: translateY(1%);
         transition: transform 250ms ease;
         transition-delay: 250ms;
+        cursor: pointer;
     }
 
     .card-title {
@@ -50,6 +53,9 @@ const Cards = props => {
         transform: translateY(1%);
         transition: transform 250ms ease;
         transition-delay: 250ms;
+
+        // makes it so the cursor doesn't extend all the way across the card
+        width: 10%;
     }
 
     .site-btn {
@@ -60,6 +66,9 @@ const Cards = props => {
         transform: translateY(1%);
         transition: transform 250ms ease;
         transition-delay: 250ms;
+        
+        // makes it so the cursor doesn't extend all the way across the card
+        width: 10%;
     }
 
     &:hover {
@@ -78,20 +87,35 @@ const Cards = props => {
             transform: translateY(-450%);
             transition: transform 250ms ease;
             transition-delay: 250ms;
-            
         }
 
         .git-btn {
+            opacity: 75%;
             transform: translateY(-350%);
             transition: transform 250ms ease;
             transition-delay: 250ms;
+
+            &:hover {
+                transform: translateY(-350%);
+                opacity: 100%;
+                margin-left: 1.5vw;
+            }
         }
         
         .site-btn {
+            opacity: 75%;
             transform: translateY(-400%);
             transition: transform 250ms ease;
             transition-delay: 250ms;
+
+            &:hover {
+                transform: translateY(-400%);
+                opacity: 100%;
+                margin-left: 1.5vw;
+            }
         }
+
+        
     }
 `;
 

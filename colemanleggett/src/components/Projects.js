@@ -53,6 +53,16 @@ const ProjectContent = styled.div`
     padding: 30px 0 26px;
     grid-gap: 25px;
     grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    @media(max-width: 1024px) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    @media(max-width: 480px) {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    
 `;
 
 
