@@ -46,6 +46,10 @@ const Container = styled.div`
     margin-left: 5vw;
     margin-right: 5vw;
     margin-top: 10vh;
+
+    @media(max-width: 480px) {
+        margin-top: 0;
+    }
 `;
 
 const ProjectContent = styled.div`

@@ -42,6 +42,10 @@ const Nav = styled.div`
     padding: 0 24px;
     overflow-x: hidden;
     color: rgb(240, 247, 244);
+
+    @media(max-width: 480px) {
+        justify-content: center;
+    }
 `;
 
 const Logo = styled.img`
@@ -63,6 +67,14 @@ const Menu = styled.div`
 
     a:hover {
         transform: scale(1.1);
+    }
+
+    @media(max-width: 768px) {
+        font-size: 50%;
+    }
+
+    @media(max-width: 480px) {
+        font-size: 35%;
     }
 `;
 

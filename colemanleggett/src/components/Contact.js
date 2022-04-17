@@ -65,6 +65,13 @@ const Container = styled.div`
     width: 100%;
     display: flex;
     align-items: center;
+
+    @media(max-width: 768px) {
+        margin: auto;
+        flex-direction: column;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
 `;
 
 const FormContainer = styled.div`
@@ -117,6 +124,11 @@ const FormContainer = styled.div`
                 cursor: pointer;
             }
     }
+
+    @media(max-width: 768px) {
+        margin: auto;
+        width: 80%
+    }
 `;
 
 const TextContainer = styled.div`
@@ -126,6 +138,20 @@ const TextContainer = styled.div`
     align-items: center;
     height: 100%;
     width: 40%;
+
+    @media(max-width: 1600px) {
+        // text gets pretty close to from 1200-1600 without this
+        margin-right: 5vw;
+    }
+
+    @media(max-width: 768px) {
+        margin: auto;
+        margin-bottom: 5vh;
+
+        h3 {
+            align-text: center;
+        }
+    }
 `;
 
 export default Contact

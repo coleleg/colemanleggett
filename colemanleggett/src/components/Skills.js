@@ -67,6 +67,14 @@ const CarouselWrap = styled.div`
     display: flex;
     justify-content: center;
     width: 50%;
+
+    @media(max-width: 1200px) {
+        width: 80%;
+    }
+
+    @media(max-width: 480px) {
+        width: 90%;
+    }
 `;
 
 const Carousel = styled(slick)`
@@ -77,17 +85,38 @@ const Carousel = styled(slick)`
             font-size: 10px;
             color: white;
         }
+
     }
 
     li.slick-active button::before {
         color: white;
     }
+
+    @media(max-width: 768px) {
+        width: 90%;
+    }
+
+
     
 `;
 
 const Wrap = styled.div`
     img {
         margin: auto;
+
+        @media(max-width: 1200px) {
+            max-width: 50%;
+            max-height: 50%;
+        }
+
+        @media(max-width: 768px) {
+            margin-bottom: 2vh;
+        }
+
+        @media(max-width: 480px) {
+            max-width: 44%;
+            max-height: 44%;
+        }
     }
 `;
 
