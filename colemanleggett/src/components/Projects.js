@@ -13,14 +13,17 @@ function Projects() {
                     title="Gym Crm: Make Gains!"
                     git="http://github.com/coleleg/gym-crm"
                     site="https://protected-waters-34726.herokuapp.com/"
-                    description="Lorem Ipsum it's easter"
+                    description="A simple and effective CRM for small, club-style gyms."
+                    technology="JavaScript, Mongo, GraphQL, React, Express, Apollo, JWT"
                 />
                 <Cards
                     img= "/images/portfolio.png"
                     alt= "coleman's portfolio website"
                     title="My Portfolio"
                     git="http://github.com/coleleg/colemanleggett"
-                    site="https://protected-waters-34726.herokuapp.com/"
+                    site="/"
+                    description="You're looking at it.  Check local storage to see how this page renders."
+                    technology="JavaScript, React"
                 />
                 <Cards
                     img= "/images/password-generator.png"
@@ -28,6 +31,8 @@ function Projects() {
                     title="Password Generator"
                     git="http://github.com/coleleg/password-generator"
                     site="https://coleleg.github.io/password-generator/"
+                    description="One of my first applications."
+                    technology="JavaScript, React"
                 />
                 <Cards
                     img= "/images/note-taker.png"
@@ -35,6 +40,8 @@ function Projects() {
                     title="Note Taker"
                     git="http://github.com/coleleg/note-taker"
                     site="https://young-island-76408.herokuapp.com/"
+                    description="Take notes with Express.js!  A REST application."
+                    technology="JavaScript, Express, REST API"
                 />
             </ProjectContent>
         </Container>

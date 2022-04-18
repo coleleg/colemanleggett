@@ -14,8 +14,9 @@ function Details() {
                     <img src={project.img} alt={project.alt} />
                 </ImgContainer>
                 <Description>
-                        <h3>{project.title}</h3>
-                        <p>{project.description}</p>
+                        <h2>{project.title}</h2>
+                        <p id="desc">{project.description}</p>
+                        <p>Technologies: {project.technology}</p>
                         <IconContainer>
                             <p className="git-btn"><a href={project.git}><GitHubIcon style={{ fontSize: 40 }} sx={{color: "white"}} /></a></p>
                             <p className="site-btn"><a href={project.site}><LinkIcon style={{ fontSize: 40 }} sx={{color: "white"}} /></a></p>
@@ -60,8 +61,14 @@ const Description = styled.div`
     box-shadow: rgb(0 0 0 / 65%) 0px 25px 30px -9px,
         rgb(0 0 0 / 75%) 0 15px 10px -9px;
 
-    h3 {
+    h2 {
         margin-bottom: 2vh;
+        border-bottom: 1px solid white;
+    }
+
+    #desc {
+        margin-bottom: 2vh;
+        font-size: 110%;
     }
 `
 
@@ -80,7 +87,7 @@ const IconContainer = styled.div`
 
     .site-btn:hover, .git-btn:hover {
         opacity: 100%;
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
 `
 export default Details
