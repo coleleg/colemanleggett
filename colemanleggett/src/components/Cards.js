@@ -1,18 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkIcon from '@mui/icons-material/Link';
+import { useNavigate } from 'react-router-dom';
 
 const Cards = props => {
+    const navigate = useNavigate();
+    
+    const handleClick = () => {
+        window.localStorage.setItem('props', JSON.stringify(props));
+        navigate('/details');
+    }
+
+
     return (
-        <Wrap>
-            <img src = {props.img} alt={props.alt}/>
+        <Wrap onClick={handleClick} >
+            <img src = {props.img} alt={props.alt} />
             <h3 className="card-title">{props.title}</h3>
             <p className="git-btn"><a href={props.git}><GitHubIcon sx={{color: "white"}} /></a></p>
             <p className="site-btn"><a href={props.site}><LinkIcon sx={{color: "white"}} /></a></p>
         </Wrap>
     )
-    }
+}
     
     const Wrap = styled.div`
     height: 80%;
@@ -170,5 +179,6 @@ const Cards = props => {
         }
     }
 `;
+
 
 export default Cards

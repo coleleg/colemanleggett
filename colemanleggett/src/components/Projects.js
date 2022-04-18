@@ -1,41 +1,41 @@
-import React from 'react'
+import React from 'react';
 import styled from 'styled-components';
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkIcon from '@mui/icons-material/Link';
 import Cards from './Cards';
 
 function Projects() {
+
     return (
         <Container id="projects">
             <ProjectContent>
-            <Cards
-                        img= "/images/gym-crm.png"
-                        alt= "gym-crm website"
-                        title="Gym Crm: Make Gains!"
-                        git="http://github.com/coleleg/gym-crm"
-                        site="https://protected-waters-34726.herokuapp.com/"
-                    />
-                    <Cards
-                        img= "/images/portfolio.png"
-                        alt= "coleman's portfolio website"
-                        title="My Portfolio"
-                        git="http://github.com/coleleg/colemanleggett"
-                        site="https://protected-waters-34726.herokuapp.com/"
-                    />
-                    <Cards
-                        img= "/images/password-generator.png"
-                        alt= "password generator website"
-                        title="Password Generator"
-                        git="http://github.com/coleleg/password-generator"
-                        site="https://coleleg.github.io/password-generator/"
-                    />
-                    <Cards
-                        img= "/images/note-taker.png"
-                        alt= "note taker website"
-                        title="Note Taker"
-                        git="http://github.com/coleleg/note-taker"
-                        site="https://young-island-76408.herokuapp.com/"
-                    />
+                <Cards
+                    img= "/images/gym-crm.png"
+                    alt= "gym-crm website"
+                    title="Gym Crm: Make Gains!"
+                    git="http://github.com/coleleg/gym-crm"
+                    site="https://protected-waters-34726.herokuapp.com/"
+                    description="Lorem Ipsum it's easter"
+                />
+                <Cards
+                    img= "/images/portfolio.png"
+                    alt= "coleman's portfolio website"
+                    title="My Portfolio"
+                    git="http://github.com/coleleg/colemanleggett"
+                    site="https://protected-waters-34726.herokuapp.com/"
+                />
+                <Cards
+                    img= "/images/password-generator.png"
+                    alt= "password generator website"
+                    title="Password Generator"
+                    git="http://github.com/coleleg/password-generator"
+                    site="https://coleleg.github.io/password-generator/"
+                />
+                <Cards
+                    img= "/images/note-taker.png"
+                    alt= "note taker website"
+                    title="Note Taker"
+                    git="http://github.com/coleleg/note-taker"
+                    site="https://young-island-76408.herokuapp.com/"
+                />
             </ProjectContent>
         </Container>
 
