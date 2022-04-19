@@ -13,16 +13,16 @@ function Header() {
                 <a href="https://github.com/coleleg">
                     <GitHubIcon sx={{ color: "white" }} />
                 </a>
-                <a href="#about">
+                <a href="/#about">
                     <span>ABOUT</span>
                 </a>
-                <a href="#skills">
+                <a href="/#skills">
                     <span>SKILLS</span>
                 </a>
-                <a href="#projects">
+                <a href="/#projects">
                     <span>PROJECTS</span>
                 </a>
-                <a href="#contact">
+                <a href="/#contact">
                     <span>CONTACT</span>
                 </a>
             </Menu>

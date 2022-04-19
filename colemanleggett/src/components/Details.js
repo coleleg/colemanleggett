@@ -33,14 +33,18 @@ const Container = styled.div`
     height: calc(100vh - 70px);
     padding: 0 calc(3.5vw + 5px);
     overflow-x: hidden;
-    background: url("images/black-textured.jpg") center center / cover no-repeat fixed;
-`
+    background: url("images/black-textured.jpg") center center / cover no-repeat fixed
+    `
 
 const Content = styled.div`
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media(max-width: 1024px) {
+        flex-direction: column;
+        justify-content: center;
+    }
 `
 const ImgContainer = styled.div`
     margin-left: 10vw;
@@ -49,6 +53,18 @@ const ImgContainer = styled.div`
         border-radius: 30px;
         box-shadow: rgb(0 0 0 / 65%) 0px 25px 30px -9px,
         rgb(0 0 0 / 75%) 0 15px 10px -9px;
+    }
+
+    @media(max-width: 1024px) {
+        margin: auto;
+    }
+
+    @media(max-width: 768px) {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 100%;
+        }
     }
 `
 const Description = styled.div`
@@ -69,6 +85,19 @@ const Description = styled.div`
     #desc {
         margin-bottom: 2vh;
         font-size: 110%;
+    }
+
+    @media(max-width: 1024px) {
+        margin: auto;
+    }
+
+    @media(max-width: 786px) {
+        margin-top: 5vh;
+        width: 75%;
+    }
+
+    @media(max-width: 480px) {
+        font-size: 75%;
     }
 `
 
