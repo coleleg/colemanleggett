@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {
-    cars: [ "Gym-Crm", "Gym-Crm", "Gym-Crm", "Gym-Crm"]
+    cards: [ "Gym-Crm", "Gym-Crm", "Gym-Crm", "Gym-Crm"]
 }
 
 const cardSlice = createSlice({

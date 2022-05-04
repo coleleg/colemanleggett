@@ -72,7 +72,7 @@ const Description = styled.div`
     padding: 2vw;
     background-color: #0A0A0A;
     color: rgb(240, 247, 244);
-    border-radius: 5px;
+    border-radius: 30px;
     border: 3px solid #0A0A0A;
     box-shadow: rgb(0 0 0 / 65%) 0px 25px 30px -9px,
         rgb(0 0 0 / 75%) 0 15px 10px -9px;
