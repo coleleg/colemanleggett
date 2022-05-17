@@ -14,7 +14,7 @@ function Projects() {
                     git="http://github.com/coleleg/gym-crm"
                     site="https://protected-waters-34726.herokuapp.com/"
                     description="A simple and effective CRM for small, club-style gyms."
-                    technology="JavaScript, Mongo, GraphQL, React, Express, Apollo, JWT"
+                    technology="JavaScript, Mongo, GraphQL, React, Express, Apollo, JWT, CSS, Node/NPM"
                 />
                 <Cards
                     img= "/images/portfolio.png"
@@ -23,25 +23,37 @@ function Projects() {
                     git="http://github.com/coleleg/colemanleggett"
                     site="/"
                     description="You're looking at it.  Check local storage to see how this page renders."
-                    technology="JavaScript, React"
+                    technology="JavaScript, React, CSS"
                 />
                 <Cards
-                    img= "/images/password-generator.png"
-                    alt= "password generator website"
-                    title="Password Generator"
-                    git="http://github.com/coleleg/password-generator"
+                    img= "/images/book-tracker.png"
+                    alt= "Book Tracker website screenshot"
+                    title="Book Tracker"
+                    git="https://github.com/coleleg/book-tracker"
                     site="https://coleleg.github.io/password-generator/"
-                    description="One of my first applications."
-                    technology="JavaScript, React"
+                    description="Search for and Save books.  Keep track of how many pages you've read!"
+                    technology="JavaScript, React, Mongo, Express, CSS, REST API, Web API, JWT, Node/NPM"
                 />
                 <Cards
-                    img= "/images/note-taker.png"
-                    alt= "note taker website"
-                    title="Note Taker"
-                    git="http://github.com/coleleg/note-taker"
-                    site="https://young-island-76408.herokuapp.com/"
-                    description="Take notes with Express.js!  A REST application."
-                    technology="JavaScript, Express, REST API"
+                    img= "/images/quiz-game.png"
+                    alt= "Game of Thrones quiz game screenshot"
+                    title="Game of Thrones Quiz Game"
+                    git="https://github.com/coleleg/quiz-game"
+                    site="https://coleleg.github.io/quiz-game/"
+                    description="Think you know Game of Thrones?"
+                    technology="JavaScript, JQuery, HTML, CSS"
+                />
+                <Cards
+                    img= "/images/rtf-converter.png"
+                    alt= "rtf-converter screenshot"
+                    title="RTF Converter"
+                    git="https://github.com/coleleg/rtf-converter"
+                    site="https://coleleg.github.io/rtf-converter/"
+                    description="Uses Regex to find data in an RTF file and converts it a usable viewing format.
+                                I made this for the company I used to work for and it is saving them hundreds of hours per year of typing kitchen prep-lists.
+                                They are able to use this to mass convert hundreds of menu items into CSV format that can be added to an excel spreadhseet and printed.
+                                See the GitHub link for a test string."
+                    technology="JavaScript, Regex"
                 />
             </ProjectContent>
         </Container>
