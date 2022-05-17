@@ -40,7 +40,8 @@ function Projects() {
                     title="Game of Thrones Quiz Game"
                     git="https://github.com/coleleg/quiz-game"
                     site="https://coleleg.github.io/quiz-game/"
-                    description="Think you know Game of Thrones?"
+                    description="Think you know Game of Thrones?  
+                    Make sure your volume is on for the best experience."
                     technology="JavaScript, JQuery, HTML, CSS"
                 />
                 <Cards
@@ -49,10 +50,10 @@ function Projects() {
                     title="RTF Converter"
                     git="https://github.com/coleleg/rtf-converter"
                     site="https://coleleg.github.io/rtf-converter/"
-                    description="Uses Regex to find data in an RTF file and converts it a usable viewing format.
+                    description="Uses Regex to find data in an RTF file and converts it the user's desired format.
                                 I made this for the company I used to work for and it is saving them hundreds of hours per year of typing kitchen prep-lists.
-                                They are able to use this to mass convert hundreds of menu items into CSV format that can be added to an excel spreadhseet and printed.
-                                See the GitHub link for a test string."
+                                They are able to use this to mass convert hundreds of menu items per week into CSV format that can be added to an excel spreadhseet and printed.
+                                Click the GitHub link and check the readme for a test string."
                     technology="JavaScript, Regex"
                 />
             </ProjectContent>
