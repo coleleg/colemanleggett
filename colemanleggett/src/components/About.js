@@ -8,15 +8,8 @@ function About() {
             <TextBox>
             <p>
                 Hi, I'm Coleman.  I've always been interested in software development, but was never truly introduced to it until a few summers back at a company I had been with for many years.
-                In order to enhance the experience of and communication between our sales and operations teams, our Operations Manager began building VBA applications to smooth
-                out various processes that were vital to our business.  We were slow during the summer, and he began teaching me about what he was working on and how to build these applications.
-                I caught on pretty quickly, and I was ultimately tasked with building apps for many of our new service offerings.
-            </p>
-            <br />
-            <p>
-                Fast forward a couple of years and I started to take it upon myself to learn about web development.  I'm now a full stack web developer with many proficiencies (see my skills 
-                section below) and have recently earned a full stack certificate from the University of Central Florida.  Apart from my hard skills, I'm a great team player with a calm and positive 
-                attitude and excellent deductive reasoning skills that have come in pretty handy when debugging code.
+                I began working on various VBA applications with the Operations Manager there which sparked my love for coding and pushed me to learn more.  I'm a mostly self-taught programmer who has 
+                has some recent experience in IT and various AWS services.
             </p>
             <br />
             <p>
