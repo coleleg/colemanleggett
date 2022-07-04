@@ -1,10 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import Cards from './Cards';
-import gym from '../../public/images/gym-crm.png';
-import rtf from '../../public/images/rtf-converter.png';
-import book from '../../public/images/book-tracker.png';
-import quiz from '../../public/images/quiz-game.png';
+import gym from '../images/gym-crm.png'
+import rtf from '../images/rtf-converter.png';
+import book from '../images/book-tracker.png';
+import quiz from '../images/quiz-game.png';
 
 function Projects() {
 
