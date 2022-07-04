@@ -8,7 +8,7 @@ function Projects() {
         <Container id="projects">
             <ProjectContent>
                 <Cards
-                    img= "images/gym-crm.png"
+                    img= "colemanleggett\public\images\gym-crm.png"
                     alt= "gym-crm website"
                     title="Gym Crm: Make Gains!"
                     git="http://github.com/coleleg/gym-crm"
@@ -17,7 +17,7 @@ function Projects() {
                     technology="JavaScript, Mongo, GraphQL, React, Express, Apollo, JWT, CSS, Node/NPM"
                 />
                 <Cards
-                    img= "images/rtf-converter.png"
+                    img= "colemanleggett\public\images\rtf-converter.png"
                     alt= "rtf-converter screenshot"
                     title="RTF Converter"
                     git="https://github.com/coleleg/rtf-converter"
@@ -29,7 +29,7 @@ function Projects() {
                     technology="JavaScript, Regex"
                 />
                 <Cards
-                    img= "images/book-tracker.png"
+                    img= "colemanleggett\public\images\book-tracker.png"
                     alt= "Book Tracker website screenshot"
                     title="Book Tracker"
                     git="https://github.com/coleleg/book-tracker"
@@ -38,7 +38,7 @@ function Projects() {
                     technology="JavaScript, React, Mongo, Express, CSS, REST API, Web API, JWT, Node/NPM"
                 />
                 <Cards
-                    img= "images/quiz-game.png"
+                    img= "colemanleggett\public\images\quiz-game.png"
                     alt= "Game of Thrones quiz game screenshot"
                     title="Game of Thrones Quiz Game"
                     git="https://github.com/coleleg/quiz-game"
