@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <BrowserRouter>
+      <BrowserRouter basename='/colemanleggett'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/details" element={<Details />} />
