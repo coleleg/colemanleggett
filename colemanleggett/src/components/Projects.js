@@ -1,6 +1,10 @@
 import React from 'react';
 import styled from 'styled-components';
 import Cards from './Cards';
+import gym from '../../public/images/gym-crm.png';
+import rtf from '../../public/images/rtf-converter.png';
+import book from '../../public/images/book-tracker.png';
+import quiz from '../../public/images/quiz-game.png';
 
 function Projects() {
 
@@ -8,7 +12,7 @@ function Projects() {
         <Container id="projects">
             <ProjectContent>
                 <Cards
-                    img= "../../public/images/gym-crm.png"
+                    img= {gym}
                     alt= "gym-crm website"
                     title="Gym Crm: Make Gains!"
                     git="http://github.com/coleleg/gym-crm"
@@ -17,7 +21,7 @@ function Projects() {
                     technology="JavaScript, Mongo, GraphQL, React, Express, Apollo, JWT, CSS, Node/NPM"
                 />
                 <Cards
-                    img= "../../public/images/rtf-converter.png"
+                    img= {rtf}
                     alt= "rtf-converter screenshot"
                     title="RTF Converter"
                     git="https://github.com/coleleg/rtf-converter"
@@ -29,7 +33,7 @@ function Projects() {
                     technology="JavaScript, Regex"
                 />
                 <Cards
-                    img= "../../public/images/book-tracker.png"
+                    img= {book}
                     alt= "Book Tracker website screenshot"
                     title="Book Tracker"
                     git="https://github.com/coleleg/book-tracker"
@@ -38,7 +42,7 @@ function Projects() {
                     technology="JavaScript, React, Mongo, Express, CSS, REST API, Web API, JWT, Node/NPM"
                 />
                 <Cards
-                    img= "../../public/images/quiz-game.png"
+                    img= {quiz}
                     alt= "Game of Thrones quiz game screenshot"
                     title="Game of Thrones Quiz Game"
                     git="https://github.com/coleleg/quiz-game"
