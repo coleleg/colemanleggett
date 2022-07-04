@@ -17,20 +17,23 @@ function Projects() {
                     technology="JavaScript, Mongo, GraphQL, React, Express, Apollo, JWT, CSS, Node/NPM"
                 />
                 <Cards
-                    img= "/images/portfolio.png"
-                    alt= "coleman's portfolio website"
-                    title="My Portfolio"
-                    git="http://github.com/coleleg/colemanleggett"
-                    site="/"
-                    description="You're looking at it.  Check local storage to see how this page renders."
-                    technology="JavaScript, React, CSS"
+                    img= "/images/rtf-converter.png"
+                    alt= "rtf-converter screenshot"
+                    title="RTF Converter"
+                    git="https://github.com/coleleg/rtf-converter"
+                    site="https://coleleg.github.io/rtf-converter/"
+                    description="Uses Regex to find data in an RTF file and converts it the user's desired format.
+                                I made this for the company I used to work for and it is saving them hundreds of hours per year of typing kitchen prep-lists.
+                                They are able to use this to mass convert hundreds of menu items per week into CSV format that can be added to an excel spreadhseet and printed.
+                                Click the GitHub link and check the readme for a test string."
+                    technology="JavaScript, Regex"
                 />
                 <Cards
                     img= "/images/book-tracker.png"
                     alt= "Book Tracker website screenshot"
                     title="Book Tracker"
                     git="https://github.com/coleleg/book-tracker"
-                    site="https://coleleg.github.io/password-generator/"
+                    site="https://liber-tracker.herokuapp.com/"
                     description="Search for and Save books.  Keep track of how many pages you've read!"
                     technology="JavaScript, React, Mongo, Express, CSS, REST API, Web API, JWT, Node/NPM"
                 />
@@ -43,18 +46,6 @@ function Projects() {
                     description="Think you know Game of Thrones?  
                     Make sure your volume is on for the best experience."
                     technology="JavaScript, JQuery, HTML, CSS"
-                />
-                <Cards
-                    img= "/images/rtf-converter.png"
-                    alt= "rtf-converter screenshot"
-                    title="RTF Converter"
-                    git="https://github.com/coleleg/rtf-converter"
-                    site="https://coleleg.github.io/rtf-converter/"
-                    description="Uses Regex to find data in an RTF file and converts it the user's desired format.
-                                I made this for the company I used to work for and it is saving them hundreds of hours per year of typing kitchen prep-lists.
-                                They are able to use this to mass convert hundreds of menu items per week into CSV format that can be added to an excel spreadhseet and printed.
-                                Click the GitHub link and check the readme for a test string."
-                    technology="JavaScript, Regex"
                 />
             </ProjectContent>
         </Container>
