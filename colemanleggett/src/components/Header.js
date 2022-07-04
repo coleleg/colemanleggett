@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from 'styled-components';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import logo from '../images/full-stack.png';
 
 function Header() {
     return (
         <Nav>
-            <Logo src="../../public/images/full-stack.png" />
+            <Logo src= {logo} />
             <Name>
                 COLEMAN LEGGETT
             </Name> 

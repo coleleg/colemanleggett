@@ -3,6 +3,16 @@ import styled from 'styled-components';
 import slick from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import js from '../images/JS-logo.png';
+import css from '../images/css.png';
+import html from '../images/html.png';
+import mysql from '../images/mysql.png';
+import mongo from '../images/mongodb.png';
+import node from '../images/node.png';
+import react from '../images/react.png';
+import rest from '../images/RestApi.png';
+import graphQL from '../images/graphql.png';
+
 
 function Skills() {
     let settings = {
@@ -20,31 +30,31 @@ function Skills() {
             <CarouselWrap>
                 <Carousel {...settings}>
                     <Wrap>
-                        <img src = "/images/JS-logo.png" />
+                        <img src = {js} />
                     </Wrap>
                     <Wrap>
-                        <img src = "/images/css.png" />
+                        <img src = {css} />
                     </Wrap>
                     <Wrap>
-                        <img src = "/images/html.png" />
+                        <img src = {html} />
                     </Wrap>
                     <Wrap>
-                        <img src = "/images/mysql.png" />
+                        <img src = {mysql} />
                     </Wrap>
                     <Wrap>
-                        <img src = "/images/mongodb.png" />
+                        <img src = {mongo} />
                     </Wrap>
                     <Wrap>
-                        <img src = "/images/node.png" />
+                        <img src = {node} />
                     </Wrap>
                     <Wrap>
-                        <img src = "/images/react.png" />
+                        <img src = {react} />
                     </Wrap>
                     <Wrap>
-                        <img src = "/images/RestApi.png" />
+                        <img src = {rest} />
                     </Wrap>
                     <Wrap>
-                        <img src = "/images/graphql.png" />
+                        <img src = {graphQL} />
                     </Wrap>
                 </Carousel>
             </CarouselWrap>
