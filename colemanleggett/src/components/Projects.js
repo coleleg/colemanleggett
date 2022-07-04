@@ -80,8 +80,4 @@ const ProjectContent = styled.div`
     
 `;
 
-
-
-
-
 export default Projects
