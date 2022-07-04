@@ -1,21 +1,31 @@
 {
   "files": {
     "main.css": "/colemanleggett/static/css/main.57efeb53.css",
-    "main.js": "/colemanleggett/static/js/main.74b1ddef.js",
+    "main.js": "/colemanleggett/static/js/main.8907a668.js",
     "static/media/gym-crm.png": "/colemanleggett/static/media/gym-crm.950adb39c70798cc2db2.png",
     "static/media/book-tracker.png": "/colemanleggett/static/media/book-tracker.6df9070b8264b3288f00.png",
     "static/media/rtf-converter.png": "/colemanleggett/static/media/rtf-converter.228379e1acf9a55793d4.png",
+    "static/media/node.png": "/colemanleggett/static/media/node.09f61524b1dad5219f15.png",
+    "static/media/css.png": "/colemanleggett/static/media/css.e5009fb383e7e4e48dfa.png",
+    "static/media/html.png": "/colemanleggett/static/media/html.1e026aae13363072a23f.png",
+    "static/media/mysql.png": "/colemanleggett/static/media/mysql.e1c0fc2a2016517d0bb3.png",
+    "static/media/react.png": "/colemanleggett/static/media/react.9e8fcc65ae37c98fa681.png",
     "static/media/quiz-game.png": "/colemanleggett/static/media/quiz-game.4d136930be6a5327aa1c.png",
+    "static/media/graphql.png": "/colemanleggett/static/media/graphql.4cf8a7a2ec2e190dc448.png",
+    "static/media/RestApi.png": "/colemanleggett/static/media/RestApi.28da54f647c5ffced5cd.png",
+    "static/media/mongodb.png": "/colemanleggett/static/media/mongodb.537c23d02b67da6ec8e9.png",
+    "static/media/full-stack.png": "/colemanleggett/static/media/full-stack.1c2e3f157cc9ebe24ce0.png",
+    "static/media/JS-logo.png": "/colemanleggett/static/media/JS-logo.7ba2d631645e0fa92d1b.png",
     "static/media/slick.svg": "/colemanleggett/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/colemanleggett/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/colemanleggett/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/colemanleggett/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/colemanleggett/index.html",
     "main.57efeb53.css.map": "/colemanleggett/static/css/main.57efeb53.css.map",
-    "main.74b1ddef.js.map": "/colemanleggett/static/js/main.74b1ddef.js.map"
+    "main.8907a668.js.map": "/colemanleggett/static/js/main.8907a668.js.map"
   },
   "entrypoints": [
     "static/css/main.57efeb53.css",
-    "static/js/main.74b1ddef.js"
+    "static/js/main.8907a668.js"
   ]
 }
