@@ -5,7 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 function Header() {
     return (
         <Nav>
-            <Logo src="/images/full-stack.png" />
+            <Logo src="../../public/images/full-stack.png" />
             <Name>
                 COLEMAN LEGGETT
             </Name> 
